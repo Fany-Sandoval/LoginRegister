@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginRegister.MainPage">
+
+    <StackLayout Padding="0">
+        <Grid>
+            <StackLayout Padding="0" Margin="0">
+                <Frame BackgroundColor="LightPink" HeightRequest="110" HorizontalOptions="FillAndExpand">
+                    
+                </Frame>
+            </StackLayout>
+            <StackLayout Margin="15,110,15,0">
+                <Frame BackgroundColor="White" HasShadow="True" HeightRequest="280" HorizontalOptions="FillAndExpand" >
+                    <StackLayout>
+                        <StackLayout HorizontalOptions="CenterAndExpand">
+                            <Label Text="Inicia Sesion" TextColor="Black" FontSize="Medium" FontAttributes="Bold"></Label>
+                        </StackLayout>
+                        <StackLayout Margin="0,25,0,0">
+                            <Frame BackgroundColor="Transparent" BorderColor="DarkGray" CornerRadius="50" Padding="0" Margin="0" HorizontalOptions="FillAndExpand">
+                                <StackLayout Orientation="Horizontal">
+                                    <Frame BackgroundColor="AliceBlue" CornerRadius="50" HeightRequest="35" WidthRequest="35" Padding="0" Margin="7">
+                                        
+                                    </Frame>
+                                    <Entry Placeholder="Email" TextColor="HotPink" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"></Entry>
+                                </StackLayout> 
+                            </Frame>
+                            <Frame BackgroundColor="Transparent" BorderColor="DarkGray" CornerRadius="50" Padding="0" Margin="0,20,0,0" HorizontalOptions="FillAndExpand">
+                                <StackLayout Orientation="Horizontal">
+                                    <Frame BackgroundColor="AliceBlue" CornerRadius="50" HeightRequest="35" WidthRequest="35" Padding="0" Margin="7">
+
+                                    </Frame>
+                                    <Entry Placeholder="Password" IsPassword="True" TextColor="HotPink" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"></Entry>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <CheckBox IsChecked="False" Color="HotPink"></CheckBox>
+                            <Label Text="Recordarme" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"></Label>
+                            <Label Text="Olvidaste tu contreña" HorizontalTextAlignment="End" TextColor="HotPink" HorizontalOptions="EndAndExpand" VerticalTextAlignment="Center" FontAttributes="Bold"></Label>
+                            <Button Text="Inicia Sesion" BackgroundColor="Purple" TextColor="White" FontAttributes="Bold" CornerRadius="20"></Button>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </Grid>
+        
+    </StackLayout>
+
+</ContentPage>
